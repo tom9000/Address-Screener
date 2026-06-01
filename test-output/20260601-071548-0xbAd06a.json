@@ -1,0 +1,315 @@
+{
+  "seed": "0xbAd06a3CA84E4E2b489974d8918B5f7387e6dB8E",
+  "calldata_ofac": [],
+  "peers": [
+    {
+      "address": "0x4E5B2e1dc63F6b91cb6Cd759936495434C7e972F",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "0.04161088",
+      "linked_eth": "0.04161088",
+      "tx_count": 1,
+      "exposure": null,
+      "tags": [
+        "cex"
+      ],
+      "ofac_entity": null,
+      "top_tx": "0x906c8ccde2345ebf3df26ad7dd320f695a510b42754fdfc25b3c111d5142c8f1",
+      "link_categories": [
+        "cex"
+      ],
+      "token_links": []
+    },
+    {
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "64",
+      "linked_eth": "64",
+      "tx_count": 1,
+      "exposure": null,
+      "tags": [
+        "high_value"
+      ],
+      "ofac_entity": null,
+      "top_tx": "0x7ba349c2a0b93977e40ba05cb60798ea18ed218f1022ce121881a371a0393bc3",
+      "link_categories": [
+        "high_value"
+      ],
+      "token_links": []
+    }
+  ],
+  "peer_strings": [
+    "cex:fixedfloat:0x4E5B2e1dc63F6b91cb6Cd759936495434C7e972F txs:1 eth_sent:0 eth_recv:0.04161088",
+    "high_value:0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 txs:1 eth_sent:0 eth_recv:64"
+  ],
+  "graph": {
+    "nodeCount": 22,
+    "edgeCount": 24,
+    "truncated": false,
+    "maxDepth": 1
+  },
+  "has_cex": true,
+  "meta": {
+    "txlist_count": 12,
+    "high_value_eth": "1",
+    "ofac_source": "ultrasound_csv",
+    "seed_balance_eth": "100.327249154734174337"
+  },
+  "txs": [
+    {
+      "blockNumber": "25207739",
+      "timeStamp": "1780138667",
+      "hash": "0x9890405571f6516e02b892a54aa418d67fe8baa7d6e81e0d13cbb87deff04008",
+      "nonce": "3",
+      "blockHash": "0x732b42d9e0bc72470c45585f8f0660f696b95a8adbb00bcc5637a02520f3bdfc",
+      "transactionIndex": "69",
+      "from": "0x4a5b962a59098dffce70c38af4c5b6258fb3c7eb",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "5857892180674922",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.005857892180674922",
+      "categories": []
+    },
+    {
+      "blockNumber": "25091999",
+      "timeStamp": "1778745179",
+      "hash": "0x58a4f559fa8938afed23b23f81678b8c180e60512c1c98a890ad6a2fe476dc4f",
+      "nonce": "35",
+      "blockHash": "0x03ee4ab3a8a0c5ee999590b14acffeff27a3eeb24d28777defd8a99a1b0fc9db",
+      "transactionIndex": "112",
+      "from": "0xbcba91b25d10d381767f8b3789f912e89a2f3090",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "6768482759414149",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.006768482759414149",
+      "categories": []
+    },
+    {
+      "blockNumber": "25080133",
+      "timeStamp": "1778602115",
+      "hash": "0x15ec21094287c49fa11131f9e80f88f3947b5d0210d655564383225673cd7056",
+      "nonce": "23",
+      "blockHash": "0xafc6a31ab0ccd40d67c1d4ea0b3fc873675aca61aab62d1fb28efd56654602ad",
+      "transactionIndex": "175",
+      "from": "0xfaf5538be3c5dcdb0fe855da8672ee8afce1fd43",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "120244523430211",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.000120244523430211",
+      "categories": []
+    },
+    {
+      "blockNumber": "25079661",
+      "timeStamp": "1778596439",
+      "hash": "0xf95016cd66992e2ddfa4f95101a71f4cd29df9ffcdba14a644e7c1b2bee2570e",
+      "nonce": "30",
+      "blockHash": "0xf3cba5b91c1064d4aa2e2ef72fc782ea170bf089c27357337b86eaa6016b17fd",
+      "transactionIndex": "238",
+      "from": "0xe02b584b570cc1728ac82260796ceb261e705f51",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "5666000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.000005666",
+      "categories": []
+    },
+    {
+      "blockNumber": "25079573",
+      "timeStamp": "1778595371",
+      "hash": "0x9c954c01db55a868866170ebc4a7027afde17bbe4a024f6b7d189ebab6d6e917",
+      "nonce": "136",
+      "blockHash": "0xc8a5e75fa266b935a4821308e624e8aaa3ab8ffbb7bfb1f240e3558aa2f40b43",
+      "transactionIndex": "79",
+      "from": "0x49bd6299f844f67df6929a72606da4368b528bff",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "11000000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.011",
+      "categories": []
+    },
+    {
+      "blockNumber": "25078528",
+      "timeStamp": "1778582771",
+      "hash": "0x06b56461618413187a8f5892dd4c844bd1b20bdd1cc9bbdfc63fb6bfd3ca3669",
+      "nonce": "394",
+      "blockHash": "0x5bf53ce27dcf4aa4111ebb238ce8b6ac0818f809b1950b9880450a7c404a67c0",
+      "transactionIndex": "118",
+      "from": "0xb4e1efc621739f84778d9944e85481b7b4fff1d9",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "11000000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.011",
+      "categories": []
+    },
+    {
+      "blockNumber": "25078367",
+      "timeStamp": "1778580839",
+      "hash": "0x906c8ccde2345ebf3df26ad7dd320f695a510b42754fdfc25b3c111d5142c8f1",
+      "nonce": "1661602",
+      "blockHash": "0x4332bb80f0c4977323bf2fa5a341875e66b1f61aab17d59f407da66fc6c1b477",
+      "transactionIndex": "264",
+      "from": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "41610880000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.04161088",
+      "categories": [
+        "cex"
+      ]
+    },
+    {
+      "blockNumber": "25078242",
+      "timeStamp": "1778579327",
+      "hash": "0xa061e9682fc6381ef4981f8bc16462f380518461f6587967664bc70818e089b5",
+      "nonce": "0",
+      "blockHash": "0x36768d012e825462d924ae37fa49662b08e2e685756aef9849b24005efc76330",
+      "transactionIndex": "26",
+      "from": "0x9e1f8ffb6fc2280c2264e94f2c9b8ac5e4d134bf",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "10000000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.01",
+      "categories": []
+    },
+    {
+      "blockNumber": "25077897",
+      "timeStamp": "1778575175",
+      "hash": "0x664e65a9dd84188b8da98481ebe559b01b19418ad42292ece27abec1897050c5",
+      "nonce": "128",
+      "blockHash": "0x5996bb02589dff626ae4075ba97636d969a08df61cdc452e604ff8c1fb6ebede",
+      "transactionIndex": "159",
+      "from": "0x93cc524802a31f71031df41d8f786cefd1a94f4c",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "10000000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.01",
+      "categories": []
+    },
+    {
+      "blockNumber": "25077876",
+      "timeStamp": "1778574923",
+      "hash": "0x71586d5d1e0c70e670aa089994d4aabfefee72a1729fee8766fb13f92ff70f8f",
+      "nonce": "1503",
+      "blockHash": "0xd9553d98327b35a6f42efbfff8fbde5890f3b483c75496fa10c4182cfeb38ca7",
+      "transactionIndex": "229",
+      "from": "0xc04de04809058f5dacd67bbdd5f057824dd7d4df",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "100000000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.1",
+      "categories": []
+    },
+    {
+      "blockNumber": "25077517",
+      "timeStamp": "1778570615",
+      "hash": "0xf0306461d6b69f45bbd3cc906296dc10bc6127d46aba2e5ec6f2c0843b58c33d",
+      "nonce": "3",
+      "blockHash": "0xf6f8f956e00941037d4bba3c4053571ee2c062ba3ecf8e38a5cb9b552f86bc1a",
+      "transactionIndex": "79",
+      "from": "0x2b0956e8c0cf468785e885c5578cbd4573bf4822",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "10000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.00001",
+      "categories": []
+    },
+    {
+      "blockNumber": "25077510",
+      "timeStamp": "1778570531",
+      "hash": "0x7ba349c2a0b93977e40ba05cb60798ea18ed218f1022ce121881a371a0393bc3",
+      "nonce": "5889",
+      "blockHash": "0x1346169fc104204e767a99e57edc6a90859f4942990e4eacac77898ed1ddc913",
+      "transactionIndex": "217",
+      "from": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+      "to": "0xbad06a3ca84e4e2b489974d8918b5f7387e6db8e",
+      "value": "64000000000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "64",
+      "categories": [
+        "high_value"
+      ]
+    }
+  ],
+  "addresses": [
+    {
+      "address": "0xbAd06a3CA84E4E2b489974d8918B5f7387e6dB8E",
+      "categories": [
+        "high_value"
+      ],
+      "ofac_entity": null,
+      "search": {
+        "results": 10
+      }
+    },
+    {
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "categories": [
+        "high_value"
+      ],
+      "ofac_entity": null,
+      "search": {
+        "results": 10
+      }
+    }
+  ]
+}

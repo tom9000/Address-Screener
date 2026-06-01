@@ -1,0 +1,255 @@
+{
+  "seed": "0x7B0b9F208f617de8DFc0001f037E92968535F755",
+  "calldata_ofac": [
+    {
+      "contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "ofac": "0x038989cBB1710C72b9920Dc4Fa529158f463e72c",
+      "tx_hash": "0x42cd87dd1d50e185d6b72bf807076381ef60bb788543046bb01bf4d5fefb019f",
+      "selector": "0xa9059cbb",
+      "token_label": "usdt",
+      "amount_raw": "8144000000",
+      "amount": "8144",
+      "decode": "transfer"
+    }
+  ],
+  "peers": [
+    {
+      "address": "0x038989cBB1710C72b9920Dc4Fa529158f463e72c",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "0",
+      "linked_eth": "0",
+      "tx_count": 1,
+      "exposure": "direct",
+      "tags": [
+        "calldata",
+        "ofac",
+        "sc:usdt"
+      ],
+      "ofac_entity": "OJEDA AVILES, Armando de Jesus",
+      "top_tx": "0x42cd87dd1d50e185d6b72bf807076381ef60bb788543046bb01bf4d5fefb019f",
+      "link_categories": [
+        "ofac",
+        "sc:usdt"
+      ],
+      "token_links": [
+        {
+          "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "token_sent": "8144"
+        }
+      ]
+    },
+    {
+      "address": "0x29D5527CaA78f1946a409FA6aCaf14A0a4A0274b",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "0.02428173",
+      "linked_eth": "0.02428173",
+      "tx_count": 4,
+      "exposure": null,
+      "tags": [
+        "cex",
+        "sc:usdt"
+      ],
+      "ofac_entity": null,
+      "top_tx": "0x1857d336248d448efebdff3863b339d9ff8a3bae555d9fa7bfc08c07f79dc67e",
+      "token_links": [
+        {
+          "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "token_recv": "8144.32"
+        }
+      ],
+      "link_categories": [
+        "cex",
+        "sc:usdt"
+      ]
+    },
+    {
+      "address": "0xDFd5293D8e347dFe59E90eFd55b2956a1343963d",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "0",
+      "linked_eth": "0",
+      "tx_count": 1,
+      "exposure": null,
+      "tags": [
+        "cex",
+        "sc:usdt"
+      ],
+      "ofac_entity": null,
+      "top_tx": "0x58899f886b191ea52c7e84c6062eaf346494d9c78c6fdac364af2052e943f4ed",
+      "link_categories": [
+        "sc:usdt"
+      ],
+      "token_links": [
+        {
+          "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "token_recv": "16774.943402"
+        }
+      ]
+    }
+  ],
+  "peer_strings": [
+    "ofac:(OJEDA AVILES; Armando de Jesus):0x038989cBB1710C72b9920Dc4Fa529158f463e72c txs:1 eth_sent:0 eth_recv:0 sc:usdt:0xdAC17F958D2ee523a2206206994597C13D831ec7 token_sent:8144",
+    "cex:bitso:0x29D5527CaA78f1946a409FA6aCaf14A0a4A0274b txs:4 eth_sent:0 eth_recv:0.02428173 sc:usdt:0xdAC17F958D2ee523a2206206994597C13D831ec7 token_recv:8144.32",
+    "cex:binance:0xDFd5293D8e347dFe59E90eFd55b2956a1343963d txs:1 eth_sent:0 eth_recv:0 sc:usdt:0xdAC17F958D2ee523a2206206994597C13D831ec7 token_recv:16774.943402"
+  ],
+  "graph": {
+    "nodeCount": 13,
+    "edgeCount": 30,
+    "truncated": false,
+    "maxDepth": 1
+  },
+  "has_cex": true,
+  "meta": {
+    "txlist_count": 6,
+    "high_value_eth": "1",
+    "ofac_source": "ultrasound_csv",
+    "seed_balance_eth": "0"
+  },
+  "txs": [
+    {
+      "blockNumber": "17588665",
+      "timeStamp": "1688086571",
+      "hash": "0x694184f2f41d228ce231f959627d9bd19fc95c95af707e7994e61758cb3fd077",
+      "nonce": "3",
+      "blockHash": "0x55568b6410958f3537c5da9df53578f0b201bc62a63468868f859ee9423fa585",
+      "transactionIndex": "47",
+      "from": "0x7b0b9f208f617de8dfc0001f037e92968535f755",
+      "to": "0x5a9bb3bae92b9c490172b621ff4c57a58ea379f5",
+      "value": "8226390078133547",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.008226390078133547",
+      "categories": []
+    },
+    {
+      "blockNumber": "16601832",
+      "timeStamp": "1676073995",
+      "hash": "0xf25921364dc11ff826814d62dbc5dc41e4b8ec0c6ba2fe4961410d666e1ef48c",
+      "nonce": "2",
+      "blockHash": "0x297aca693992754d4e66aff8dcce0a26a478c2acb211da41784a88d927153a77",
+      "transactionIndex": "137",
+      "from": "0x7b0b9f208f617de8dfc0001f037e92968535f755",
+      "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "value": "0",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0xa9059cbb0000000000000000000000005a9bb3bae92b9c490172b621ff4c57a58ea379f500000000000000000000000000000000000000000000000000000003e7e234aa",
+      "contractAddress": "",
+      "methodId": "0xa9059cbb",
+      "functionName": "transfer(address _to, uint256 _value)",
+      "value_eth": "0",
+      "categories": [
+        "sc:usdt"
+      ]
+    },
+    {
+      "blockNumber": "16601506",
+      "timeStamp": "1676070083",
+      "hash": "0x1afa2bfb0bd5d3ead9626fa8548621fa0c131a158fb078e38bb159495b51f99b",
+      "nonce": "747835",
+      "blockHash": "0x37160884052fb405e1a0e01ed497f97b97ba4816b49a9b6c2f86b1e5172dd034",
+      "transactionIndex": "94",
+      "from": "0x29d5527caa78f1946a409fa6acaf14a0a4a0274b",
+      "to": "0x7b0b9f208f617de8dfc0001f037e92968535f755",
+      "value": "9840810000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.00984081",
+      "categories": [
+        "cex"
+      ]
+    },
+    {
+      "blockNumber": "16457888",
+      "timeStamp": "1674336755",
+      "hash": "0x438fda24cc0e3a8bba1586582733982eada4e2cd82af7c1e1693f10e38200be4",
+      "nonce": "1",
+      "blockHash": "0x369cf4c3a5f0fed99b68e23ffe9f84b90c647c1a5a24ad44b42d13ceef819464",
+      "transactionIndex": "27",
+      "from": "0x7b0b9f208f617de8dfc0001f037e92968535f755",
+      "to": "0xcd4e6018381484d534a408f0a877e23e6b43ffbc",
+      "value": "12736731155028897",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.012736731155028897",
+      "categories": []
+    },
+    {
+      "blockNumber": "16457822",
+      "timeStamp": "1674335963",
+      "hash": "0x42cd87dd1d50e185d6b72bf807076381ef60bb788543046bb01bf4d5fefb019f",
+      "nonce": "0",
+      "blockHash": "0xd3b34126010e3a9803ddae29092b19e260fe463fa8e441ed72666bb354ac509c",
+      "transactionIndex": "226",
+      "from": "0x7b0b9f208f617de8dfc0001f037e92968535f755",
+      "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "value": "0",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0xa9059cbb000000000000000000000000038989cbb1710c72b9920dc4fa529158f463e72c00000000000000000000000000000000000000000000000000000001e56b9400",
+      "contractAddress": "",
+      "methodId": "0xa9059cbb",
+      "functionName": "transfer(address _to, uint256 _value)",
+      "value_eth": "0",
+      "categories": [
+        "sc:usdt",
+        "ofac"
+      ]
+    },
+    {
+      "blockNumber": "16457373",
+      "timeStamp": "1674330563",
+      "hash": "0x1857d336248d448efebdff3863b339d9ff8a3bae555d9fa7bfc08c07f79dc67e",
+      "nonce": "732020",
+      "blockHash": "0xb975e9d17ad2d70ea55981e346a4f6f410886984866ff4fff93d1731d794111a",
+      "transactionIndex": "118",
+      "from": "0x29d5527caa78f1946a409fa6acaf14a0a4a0274b",
+      "to": "0x7b0b9f208f617de8dfc0001f037e92968535f755",
+      "value": "14440920000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.01444092",
+      "categories": [
+        "cex"
+      ]
+    }
+  ],
+  "addresses": [
+    {
+      "address": "0x7B0b9F208f617de8DFc0001f037E92968535F755",
+      "categories": [],
+      "ofac_entity": null,
+      "search": {
+        "results": 1
+      }
+    },
+    {
+      "address": "0x038989cBB1710C72b9920Dc4Fa529158f463e72c",
+      "categories": [
+        "ofac"
+      ],
+      "ofac_entity": "OJEDA AVILES, Armando de Jesus",
+      "search": {
+        "results": 10
+      }
+    }
+  ]
+}

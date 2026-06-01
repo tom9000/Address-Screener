@@ -1,0 +1,2 @@
+address,eth_balance,categories,peer_txs,search
+0xbAd06a3CA84E4E2b489974d8918B5f7387e6dB8E,100.327249154734174337,high_value cex search,cex:fixedfloat:0x4E5B2e1dc63F6b91cb6Cd759936495434C7e972F txs:1 eth_sent:0 eth_recv:0.04161088 | high_value:0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 txs:1 eth_sent:0 eth_recv:64,search:0xbAd06a3CA84E4E2b489974d8918B5f7387e6dB8E results:10 | search:0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 results:10

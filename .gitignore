@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Ad-hoc screen output written to repo root (see test-output/ for committed fixtures)
+/202*.csv
+/202*.json

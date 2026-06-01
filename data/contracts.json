@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "retrieved_at": "2026-05-29",
+    "notes": "Curated Ethereum mainnet contracts: DeFi routers/pools and major tokens.",
+    "sources": [
+      "https://github.com/Uniswap/universal-router/blob/main/deploy-addresses/mainnet.json",
+      "https://github.com/Uniswap/v3-periphery/blob/main/deploys.md",
+      "https://etherscan.io/address/0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "https://etherscan.io/address/0x111111125421ca6dc452d289314280a0f8842a65",
+      "https://github.com/bgd-labs/aave-address-book/blob/main/src/AaveV3Ethereum.sol",
+      "https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7"
+    ]
+  },
+  "contracts": [
+    { "label": "usdc", "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48" },
+    { "label": "usdt", "address": "0xdac17f958d2ee523a2206206994597c13d831ec7" },
+    { "label": "uniswap_universal_router_v2", "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af" },
+    { "label": "uniswap_universal_router_v1", "address": "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b" },
+    { "label": "uniswap_universal_router_v1_2_v2support", "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad" },
+    { "label": "uniswap_v2_router", "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d" },
+    { "label": "uniswap_v3_swap_router", "address": "0xe592427a0aece92de3edee1f18e0157c05861564" },
+    { "label": "uniswap_permit2", "address": "0x000000000022d473030f116ddee9f6b43ac78ba3" },
+    { "label": "1inch_aggregation_router_v6", "address": "0x111111125421ca6dc452d289314280a0f8842a65" },
+    { "label": "weth9", "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" },
+    { "label": "lido", "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84" },
+    { "label": "aave_v3_pool", "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2" }
+  ]
+}

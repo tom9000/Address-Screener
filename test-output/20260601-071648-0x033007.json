@@ -1,0 +1,195 @@
+{
+  "seed": "0x0330070FD38Ec3bB94F58FA55D40368271E9e54A",
+  "calldata_ofac": [],
+  "peers": [
+    {
+      "address": "0x37a1C1ea4dE0EFE02cfC4DE510F731e928850114",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "0.096353409478703436",
+      "linked_eth": "0.096353409478703436",
+      "tx_count": 1,
+      "exposure": null,
+      "tags": [
+        "ofac"
+      ],
+      "ofac_entity": null,
+      "top_tx": "0x70cd22f632c062ab6d7ea599db0e06de4a17ff7aa554964d58024399a91b5d02",
+      "link_categories": [
+        "ofac"
+      ],
+      "token_links": []
+    },
+    {
+      "address": "0x9430801EBAf509Ad49202aaBC5F5Bc6fd8A3dAf8",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "0.015",
+      "linked_eth": "0.015",
+      "tx_count": 1,
+      "exposure": null,
+      "tags": [
+        "cex",
+        "ofac"
+      ],
+      "ofac_entity": null,
+      "top_tx": "0xdab55f787b008f0ac5af84968bc7313341c3f71dee9ccb010acb9b270bfaec29",
+      "link_categories": [
+        "cex",
+        "ofac"
+      ],
+      "token_links": []
+    },
+    {
+      "address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+      "depth": 1,
+      "sent_eth": "0",
+      "recv_eth": "0",
+      "linked_eth": "0",
+      "tx_count": 2,
+      "exposure": null,
+      "tags": [
+        "cex",
+        "sc:usdc",
+        "sc:usdt"
+      ],
+      "ofac_entity": null,
+      "top_tx": "0x47041a0eae89e6d118d5f96d9f9694533c9ffc5437e205ea0f24688a58915cbb",
+      "token_links": [
+        {
+          "contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "token_sent": "23600"
+        },
+        {
+          "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "token_sent": "6900"
+        }
+      ],
+      "link_categories": [
+        "ofac",
+        "sc:usdc",
+        "sc:usdt"
+      ]
+    }
+  ],
+  "peer_strings": [
+    "ofac:(AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY):0x0330070FD38Ec3bB94F58FA55D40368271E9e54A",
+    "ofac_peer:0x37a1C1ea4dE0EFE02cfC4DE510F731e928850114 txs:1 eth_sent:0 eth_recv:0.096353409478703436",
+    "ofac_peer:0x9430801EBAf509Ad49202aaBC5F5Bc6fd8A3dAf8 txs:1 eth_sent:0 eth_recv:0.015",
+    "cex:binance:0x28C6c06298d514Db089934071355E5743bf21d60 txs:2 eth_sent:0 eth_recv:0 sc:usdc:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 token_sent:23600 sc:usdt:0xdAC17F958D2ee523a2206206994597C13D831ec7 token_sent:6900"
+  ],
+  "graph": {
+    "nodeCount": 9,
+    "edgeCount": 15,
+    "truncated": false,
+    "maxDepth": 1
+  },
+  "has_cex": true,
+  "meta": {
+    "txlist_count": 4,
+    "high_value_eth": "1",
+    "ofac_source": "ultrasound_csv",
+    "seed_balance_eth": "0.10909687628932467"
+  },
+  "txs": [
+    {
+      "blockNumber": "21327161",
+      "timeStamp": "1733291471",
+      "hash": "0x2a8df19623bfbd437d2da47b5e680ab94b60236d004e2bd5b6cf2e34be978ed9",
+      "nonce": "1",
+      "blockHash": "0x79999009eec6cc7353ebb5461ebe4f85d0ea891c6dd0d4af4df5251da7a4fb5b",
+      "transactionIndex": "168",
+      "from": "0x0330070fd38ec3bb94f58fa55d40368271e9e54a",
+      "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "value": "0",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0xa9059cbb00000000000000000000000028c6c06298d514db089934071355e5743bf21d60000000000000000000000000000000000000000000000000000000019b45a500",
+      "contractAddress": "",
+      "methodId": "0xa9059cbb",
+      "functionName": "transfer(address _to, uint256 _value)",
+      "value_eth": "0",
+      "categories": [
+        "ofac",
+        "sc:usdt"
+      ]
+    },
+    {
+      "blockNumber": "21150650",
+      "timeStamp": "1731161975",
+      "hash": "0x70cd22f632c062ab6d7ea599db0e06de4a17ff7aa554964d58024399a91b5d02",
+      "nonce": "13",
+      "blockHash": "0xc4bff2561ae41a85f9003ce203d2c968186d5e76f31dfd18bba8f7df515e35ad",
+      "transactionIndex": "28",
+      "from": "0x37a1c1ea4de0efe02cfc4de510f731e928850114",
+      "to": "0x0330070fd38ec3bb94f58fa55d40368271e9e54a",
+      "value": "96353409478703436",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.096353409478703436",
+      "categories": [
+        "ofac"
+      ]
+    },
+    {
+      "blockNumber": "17094778",
+      "timeStamp": "1682080235",
+      "hash": "0x47041a0eae89e6d118d5f96d9f9694533c9ffc5437e205ea0f24688a58915cbb",
+      "nonce": "0",
+      "blockHash": "0x248fc6d002ef7f85c884582ea4064591010310c59f37648b0a73e3e6f90ea5a5",
+      "transactionIndex": "89",
+      "from": "0x0330070fd38ec3bb94f58fa55d40368271e9e54a",
+      "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value": "0",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0xa9059cbb00000000000000000000000028c6c06298d514db089934071355e5743bf21d60000000000000000000000000000000000000000000000000000000057eab6c00",
+      "contractAddress": "",
+      "methodId": "0xa9059cbb",
+      "functionName": "transfer(address _to, uint256 _value)",
+      "value_eth": "0",
+      "categories": [
+        "ofac",
+        "sc:usdc"
+      ]
+    },
+    {
+      "blockNumber": "17094695",
+      "timeStamp": "1682079239",
+      "hash": "0xdab55f787b008f0ac5af84968bc7313341c3f71dee9ccb010acb9b270bfaec29",
+      "nonce": "667280",
+      "blockHash": "0x4f334fab1bf350783b57314d94c769bbca681ab6509d6a783c45ac57a0533d58",
+      "transactionIndex": "70",
+      "from": "0x9430801ebaf509ad49202aabc5f5bc6fd8a3daf8",
+      "to": "0x0330070fd38ec3bb94f58fa55d40368271e9e54a",
+      "value": "15000000000000000",
+      "isError": "0",
+      "txreceipt_status": "1",
+      "input": "0x",
+      "contractAddress": "",
+      "methodId": "0x",
+      "functionName": "",
+      "value_eth": "0.015",
+      "categories": [
+        "cex",
+        "ofac"
+      ]
+    }
+  ],
+  "addresses": [
+    {
+      "address": "0x0330070FD38Ec3bB94F58FA55D40368271E9e54A",
+      "categories": [
+        "ofac"
+      ],
+      "ofac_entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+      "search": {
+        "results": 10
+      }
+    }
+  ]
+}

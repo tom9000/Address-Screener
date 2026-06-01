@@ -1,0 +1,27 @@
+{
+  "name": "elliptic-wallet-screen-v0-2",
+  "version": "0.2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "screen": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ci": "npm run typecheck && npm run test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "graphology": "^0.26.0",
+    "viem": "^2.23.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}

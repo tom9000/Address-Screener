@@ -1,0 +1,2 @@
+address,eth_balance,categories,peer_txs,search
+0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045,5.676924848982017633,high_value search,high_value:0x3C7779D27348017415a9184ACaDc0D62052841aB txs:1 eth_sent:160 eth_recv:0 | high_value:0xbAd06a3CA84E4E2b489974d8918B5f7387e6dB8E txs:1 eth_sent:64 eth_recv:0,search:0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 results:10 | search:0x3C7779D27348017415a9184ACaDc0D62052841aB results:10 | search:0xbAd06a3CA84E4E2b489974d8918B5f7387e6dB8E results:10
